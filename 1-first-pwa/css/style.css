@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.landing {
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+#mainText {
+  margin-top: 30vh;
+}
+
+.sidenav-overlay {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  /* height: 120vh; */
+  background-color: rgba(0,0,0,0.5);
+  z-index: 997;
+  display: none;
+}
+
+.img-skills {
+  width: 128px;
+  height: 128px;
+}
+
+.page-footer {
+  padding-top: 0px;
+  color: #fff;
+  background-color: #26a69a;
+}
+
+footer {
+  margin-top: auto;
+}

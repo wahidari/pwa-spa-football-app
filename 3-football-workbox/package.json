@@ -1,0 +1,17 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "Football App",
+  "scripts": {
+    "lint": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wahidari",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1"
+  }
+}
